@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="560" viewBox="0 0 760 560">
+<title>图2 六层约束模型层间关系图</title>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#111"/></marker><style><![CDATA[text{font-family:Arial,'Noto Sans CJK SC','Microsoft YaHei',sans-serif;fill:#111;font-size:14px}.title{font-size:20px;font-weight:700}.box{fill:#fff;stroke:#111;stroke-width:1.6}.dash{fill:#fff;stroke:#111;stroke-width:1.5;stroke-dasharray:6 4}.line{stroke:#111;stroke-width:1.5;fill:none;marker-end:url(#arrow)}.small{font-size:12px}.bold{font-weight:700}]]></style></defs>
+<rect x="0" y="0" width="760" height="560" fill="#fff"/>
+<text class="title" x="380" y="32" text-anchor="middle">图2 六层约束模型层间关系图</text>
+<rect class="box" x="250" y="65" width="190" height="48"/>
+<text x="345" y="94" text-anchor="middle">任务路由层</text>
+<path class="line" d="M345,113 L345,135"/>
+<rect class="dash" x="500" y="65" width="190" height="48"/>
+<text x="595" y="94" text-anchor="middle">控制入口不确定性</text>
+<path class="line" d="M440,89 L500,89"/>
+<rect class="box" x="250" y="135" width="190" height="48"/>
+<text x="345" y="164" text-anchor="middle">需求与用例层</text>
+<path class="line" d="M345,183 L345,205"/>
+<rect class="dash" x="500" y="135" width="190" height="48"/>
+<text x="595" y="164" text-anchor="middle">控制需求基线和覆盖不确定性</text>
+<path class="line" d="M440,159 L500,159"/>
+<rect class="box" x="250" y="205" width="190" height="48"/>
+<text x="345" y="234" text-anchor="middle">测试实施设计层</text>
+<path class="line" d="M345,253 L345,275"/>
+<rect class="dash" x="500" y="205" width="190" height="48"/>
+<text x="595" y="234" text-anchor="middle">控制环境和工具不确定性</text>
+<path class="line" d="M440,229 L500,229"/>
+<rect class="box" x="250" y="275" width="190" height="48"/>
+<text x="345" y="304" text-anchor="middle">执行证据层</text>
+<path class="line" d="M345,323 L345,345"/>
+<rect class="dash" x="500" y="275" width="190" height="48"/>
+<text x="595" y="304" text-anchor="middle">控制事实和归因不确定性</text>
+<path class="line" d="M440,299 L500,299"/>
+<rect class="box" x="250" y="345" width="190" height="48"/>
+<text x="345" y="374" text-anchor="middle">判断基线层</text>
+<path class="line" d="M345,393 L345,415"/>
+<rect class="dash" x="500" y="345" width="190" height="48"/>
+<text x="595" y="374" text-anchor="middle">控制结论定性不确定性</text>
+<path class="line" d="M440,369 L500,369"/>
+<rect class="box" x="250" y="415" width="190" height="48"/>
+<text x="345" y="444" text-anchor="middle">交付与沉淀层</text>
+<rect class="dash" x="500" y="415" width="190" height="48"/>
+<text x="595" y="444" text-anchor="middle">控制报告和沉淀不确定性</text>
+<path class="line" d="M440,439 L500,439"/>
+<text class="small" x="120" y="445" text-anchor="start">下层执行事实反馈至上层约束修正</text>
+
+</svg>

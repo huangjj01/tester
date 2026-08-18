@@ -1,0 +1,69 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="675" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#07131F"/>
+      <stop offset="0.52" stop-color="#0F2B46"/>
+      <stop offset="1" stop-color="#EAF6FF"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="136" y1="116" x2="1040" y2="548" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00C2A8"/>
+      <stop offset="1" stop-color="#1677FF"/>
+    </linearGradient>
+    <filter id="shadow" x="76" y="54" width="1048" height="570" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="28" stdDeviation="34" flood-color="#001833" flood-opacity="0.36"/>
+    </filter>
+    <pattern id="dots" width="34" height="34" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#CFE9FF" fill-opacity="0.18"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect width="1200" height="675" fill="url(#dots)"/>
+
+  <g opacity="0.6">
+    <rect x="44" y="82" width="300" height="18" rx="4" fill="#7EC8FF" fill-opacity="0.16"/>
+    <rect x="44" y="122" width="390" height="14" rx="4" fill="#7EC8FF" fill-opacity="0.12"/>
+    <rect x="44" y="154" width="250" height="14" rx="4" fill="#7EC8FF" fill-opacity="0.11"/>
+    <rect x="44" y="186" width="344" height="14" rx="4" fill="#7EC8FF" fill-opacity="0.13"/>
+    <rect x="44" y="218" width="220" height="14" rx="4" fill="#7EC8FF" fill-opacity="0.10"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="116" y="78" width="968" height="520" rx="32" fill="#FFFFFF" fill-opacity="0.12" stroke="#FFFFFF" stroke-opacity="0.35"/>
+  </g>
+
+  <rect x="158" y="124" width="162" height="42" rx="21" fill="#FFFFFF" fill-opacity="0.12"/>
+  <text x="183" y="152" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="19" font-weight="800" fill="#EAF6FF">圈子主理人</text>
+
+  <text x="158" y="244" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="64" font-weight="900" fill="#FFFFFF">
+    <tspan x="158" y="244">德彪谈测试</tspan>
+  </text>
+  <text x="158" y="314" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="34" font-weight="800" fill="#CDEBFF">
+    <tspan x="158" y="314">面向测试工程师的 AI 测试转型交流圈</tspan>
+  </text>
+
+  <text x="158" y="386" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="500" fill="#E7F3FF">
+    <tspan x="158" y="386">10+ 年一线测试实战，持续沉淀 AI 测试方法论、</tspan>
+    <tspan x="158" y="424">工具落地、项目复盘和测试人的升级路径。</tspan>
+  </text>
+
+  <g transform="translate(158 484)">
+    <rect width="150" height="44" rx="22" fill="#FFFFFF" fill-opacity="0.14"/>
+    <text x="25" y="29" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">AI测试</text>
+    <rect x="170" width="172" height="44" rx="22" fill="#FFFFFF" fill-opacity="0.14"/>
+    <text x="195" y="29" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">质量工程</text>
+    <rect x="362" width="182" height="44" rx="22" fill="#FFFFFF" fill-opacity="0.14"/>
+    <text x="387" y="29" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">实战复盘</text>
+  </g>
+
+  <g transform="translate(748 146)">
+    <rect x="0" y="0" width="254" height="356" rx="28" fill="#071A2D" fill-opacity="0.72" stroke="#8FD8FF" stroke-opacity="0.28"/>
+    <rect x="28" y="40" width="198" height="44" rx="10" fill="#112E4B"/>
+    <rect x="48" y="57" width="112" height="10" rx="5" fill="#7EC8FF" fill-opacity="0.65"/>
+    <rect x="28" y="112" width="198" height="44" rx="10" fill="#112E4B"/>
+    <rect x="48" y="129" width="146" height="10" rx="5" fill="#D1F7EF" fill-opacity="0.78"/>
+    <rect x="28" y="184" width="198" height="44" rx="10" fill="#112E4B"/>
+    <rect x="48" y="201" width="128" height="10" rx="5" fill="#7EC8FF" fill-opacity="0.65"/>
+    <path d="M80 292L115 326L184 246" stroke="url(#accent)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

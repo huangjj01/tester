@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="960" viewBox="0 0 1200 960">
+  <defs>
+    <linearGradient id="paperWash" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B0C0F"/>
+      <stop offset="1" stop-color="#111318"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#000" flood-opacity="0.26"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="960" fill="url(#paperWash)"/>
+  <g opacity="0.14">
+    <path d="M0 120H1200M0 240H1200M0 360H1200M0 480H1200M0 600H1200M0 720H1200M0 840H1200M0 960H1200M0 1080H1200M0 1200H1200M0 1320H1200" stroke="#2C3442"/>
+    <path d="M120 0V960M240 0V960M360 0V960M480 0V960M600 0V960M720 0V960M840 0V960M960 0V960M1080 0V960" stroke="#2C3442"/>
+  </g>
+  <text x="58" y="74" fill="#8E744A" font-size="21" font-weight="850" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="58" dy="0">PART 02 · ASSETS</tspan></text>
+  <text x="58" y="138" fill="#F5F1E8" font-size="52" font-weight="920" text-anchor="start" font-family="PingFang SC, STSong, Songti SC, serif" letter-spacing="0"><tspan x="58" dy="0">四层治理资产结构</tspan></text>
+  <text x="58" y="224" fill="#CFC5B4" font-size="24" font-weight="560" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="58" dy="0">这四层已经把“让 Agent 知道该怎么做”覆盖得很完整，但还没有把“执行时必须这样做</tspan><tspan x="58" dy="36">”真正落成门禁。</tspan></text>
+  
+        <rect x="58" y="278" width="1084" height="542" rx="28" fill="rgba(21,25,34,0.94)" stroke="#394356" stroke-width="2.2" opacity="1"/>
+        <text x="86" y="330" fill="#F5F1E8" font-size="30" font-weight="900" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="86" dy="0">已有治理资产</tspan></text>
+
+        <rect x="116" y="386" width="968" height="92" rx="22" fill="#151922" stroke="#8E744A" stroke-width="2.1" opacity="1"/>
+    <text x="140" y="436" fill="#F5F1E8" font-size="24" font-weight="900" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="140" dy="0">规则层</tspan></text>
+    <text x="140" y="478" fill="#CFC5B4" font-size="17" font-weight="500" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="140" dy="0">红线、强制入口、阶段约束：先定义什么不能做，什么必须先做。</tspan></text>
+        <rect x="116" y="512" width="968" height="92" rx="22" fill="#151922" stroke="#5C8D89" stroke-width="2.1" opacity="1"/>
+    <text x="140" y="562" fill="#F5F1E8" font-size="24" font-weight="900" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="140" dy="0">路由层</tspan></text>
+    <text x="140" y="604" fill="#CFC5B4" font-size="17" font-weight="500" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="140" dy="0">workflow catalog / 任务类型识别：先判断命中了哪条执行路线。</tspan></text>
+        <rect x="116" y="638" width="968" height="92" rx="22" fill="#151922" stroke="#D4B06A" stroke-width="2.1" opacity="1"/>
+    <text x="140" y="688" fill="#F5F1E8" font-size="24" font-weight="900" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="140" dy="0">流程层</tspan></text>
+    <text x="140" y="730" fill="#CFC5B4" font-size="17" font-weight="500" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="140" dy="0">skills / checklist / 步骤模板：把任务拆成可跟随的标准动作序列。</tspan></text>
+        <rect x="116" y="764" width="968" height="92" rx="22" fill="#151922" stroke="#6D7C57" stroke-width="2.1" opacity="1"/>
+    <text x="140" y="814" fill="#F5F1E8" font-size="24" font-weight="900" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="140" dy="0">工具层</tspan></text>
+    <text x="140" y="856" fill="#CFC5B4" font-size="17" font-weight="500" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="140" dy="0">正式脚本与受控入口：限定 Agent 只能通过哪些命令和工具落地。</tspan></text>
+
+        <path d="M 600 478 L 600 512 M 595 503.33974596215563 L 600 512 L 605 503.33974596215563" fill="none" stroke="#A54E3D" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M 600 604 L 600 638 M 595 629.3397459621556 L 600 638 L 605 629.3397459621556" fill="none" stroke="#A54E3D" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M 600 730 L 600 764 M 595 755.3397459621556 L 600 764 L 605 755.3397459621556" fill="none" stroke="#A54E3D" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+        <rect x="146" y="868" width="908" height="50" rx="25" fill="rgba(17,22,30,0.96)" stroke="#A54E3D" stroke-width="2" opacity="1"/>
+        <text x="600" y="900" fill="#CFC5B4" font-size="23" font-weight="820" text-anchor="middle" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="600" dy="0">共同作用：解决“怎么说、怎么写、怎么走”，但还没解决“怎么拦”。</tspan></text>
+      
+</svg>

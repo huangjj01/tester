@@ -1,0 +1,65 @@
+<svg width="800" height="800" viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="800" y2="800" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#061421"/>
+      <stop offset="0.58" stop-color="#10314E"/>
+      <stop offset="1" stop-color="#E3F4FF"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="215" y1="514" x2="585" y2="514" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1677FF"/>
+      <stop offset="1" stop-color="#00C2A8"/>
+    </linearGradient>
+    <filter id="shadow" x="62" y="86" width="676" height="608" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#001424" flood-opacity="0.34"/>
+    </filter>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" stroke="#BDEAFF" stroke-opacity="0.12" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <rect width="800" height="800" fill="url(#grid)"/>
+
+  <g opacity="0.48">
+    <rect x="42" y="92" width="250" height="14" fill="#88CFFF" fill-opacity="0.16"/>
+    <rect x="42" y="132" width="178" height="10" fill="#88CFFF" fill-opacity="0.12"/>
+    <rect x="42" y="168" width="296" height="10" fill="#88CFFF" fill-opacity="0.12"/>
+    <rect x="42" y="204" width="226" height="10" fill="#88CFFF" fill-opacity="0.14"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="90" y="118" width="620" height="520" fill="#FFFFFF" fill-opacity="0.13" stroke="#FFFFFF" stroke-opacity="0.3" stroke-width="2"/>
+  </g>
+
+  <rect x="144" y="166" width="166" height="38" fill="#FFFFFF" fill-opacity="0.14"/>
+  <text x="169" y="192" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="800" fill="#EAF9FF">AI测试实战圈</text>
+
+  <text x="400" y="286" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="52" font-weight="900" fill="#FFFFFF">
+    <tspan x="400" y="286">测试人</tspan>
+    <tspan x="400" y="350">用 AI 重写质量能力</tspan>
+  </text>
+
+  <text x="400" y="414" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="700" fill="#D8EEFF">方法论 · 工具落地 · 自动化实践</text>
+  <text x="400" y="454" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="700" fill="#D8EEFF">项目复盘 · 职业升级</text>
+
+  <g transform="translate(175 505)">
+    <rect width="120" height="38" fill="#1677FF"/>
+    <text x="28" y="25" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="800" fill="#FFFFFF">需求分析</text>
+    <path d="M138 19H176" stroke="#DDF5FF" stroke-opacity="0.66" stroke-width="3" stroke-linecap="round"/>
+    <rect x="194" width="120" height="38" fill="#0EA5E9"/>
+    <text x="222" y="25" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="800" fill="#FFFFFF">用例设计</text>
+    <path d="M332 19H370" stroke="#DDF5FF" stroke-opacity="0.66" stroke-width="3" stroke-linecap="round"/>
+    <rect x="388" width="120" height="38" fill="#00B8A9"/>
+    <text x="416" y="25" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="800" fill="#FFFFFF">质量复盘</text>
+  </g>
+
+  <g transform="translate(310 574)">
+    <circle cx="90" cy="90" r="72" fill="#FFFFFF" fill-opacity="0.12" stroke="#FFFFFF" stroke-opacity="0.22"/>
+    <circle cx="90" cy="90" r="48" fill="#071421" fill-opacity="0.62" stroke="#7FD8FF" stroke-opacity="0.38"/>
+    <path d="M63 89L83 109L119 66" stroke="url(#accent)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M90 22V42" stroke="#BDEAFF" stroke-width="7" stroke-linecap="round"/>
+    <path d="M90 138V158" stroke="#BDEAFF" stroke-width="7" stroke-linecap="round"/>
+    <path d="M22 90H42" stroke="#BDEAFF" stroke-width="7" stroke-linecap="round"/>
+    <path d="M138 90H158" stroke="#BDEAFF" stroke-width="7" stroke-linecap="round"/>
+  </g>
+</svg>

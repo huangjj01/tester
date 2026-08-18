@@ -1,0 +1,63 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="675" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F7FBFF"/>
+      <stop offset="1" stop-color="#EAF4FF"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="172" y1="136" x2="1024" y2="504" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1677FF"/>
+      <stop offset="1" stop-color="#00B8A9"/>
+    </linearGradient>
+    <filter id="soft" x="50" y="38" width="1100" height="610" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="24" stdDeviation="30" flood-color="#0D2B4A" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <g filter="url(#soft)">
+    <rect x="92" y="66" width="1016" height="544" rx="30" fill="#FFFFFF"/>
+  </g>
+
+  <text x="128" y="136" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="48" font-weight="900" fill="#102033">AI 测试方法论地图</text>
+  <text x="128" y="184" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="500" fill="#53657A">把 AI 用到真实项目里，而不是停在工具尝鲜。</text>
+
+  <g transform="translate(144 252)">
+    <path d="M88 74H782" stroke="#D8E6F5" stroke-width="8" stroke-linecap="round"/>
+    <path d="M88 74H438" stroke="url(#blue)" stroke-width="8" stroke-linecap="round"/>
+    <g>
+      <circle cx="88" cy="74" r="52" fill="#1677FF"/>
+      <text x="70" y="85" font-family="Arial, sans-serif" font-size="32" font-weight="800" fill="#FFFFFF">1</text>
+      <text x="28" y="158" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="800" fill="#102033">需求拆解</text>
+      <text x="8" y="194" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="500" fill="#64748B">让 AI 帮你找边界</text>
+    </g>
+    <g>
+      <circle cx="262" cy="74" r="52" fill="#0EA5E9"/>
+      <text x="244" y="85" font-family="Arial, sans-serif" font-size="32" font-weight="800" fill="#FFFFFF">2</text>
+      <text x="202" y="158" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="800" fill="#102033">用例设计</text>
+      <text x="180" y="194" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="500" fill="#64748B">从场景到覆盖矩阵</text>
+    </g>
+    <g>
+      <circle cx="436" cy="74" r="52" fill="#00B8A9"/>
+      <text x="418" y="85" font-family="Arial, sans-serif" font-size="32" font-weight="800" fill="#FFFFFF">3</text>
+      <text x="376" y="158" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="800" fill="#102033">自动化辅助</text>
+      <text x="356" y="194" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="500" fill="#64748B">脚本、数据、断言落地</text>
+    </g>
+    <g>
+      <circle cx="610" cy="74" r="52" fill="#E2E8F0"/>
+      <text x="592" y="85" font-family="Arial, sans-serif" font-size="32" font-weight="800" fill="#334155">4</text>
+      <text x="550" y="158" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="800" fill="#102033">缺陷分析</text>
+      <text x="524" y="194" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="500" fill="#64748B">日志归因与证据闭环</text>
+    </g>
+    <g>
+      <circle cx="784" cy="74" r="52" fill="#E2E8F0"/>
+      <text x="766" y="85" font-family="Arial, sans-serif" font-size="32" font-weight="800" fill="#334155">5</text>
+      <text x="724" y="158" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="800" fill="#102033">质量复盘</text>
+      <text x="702" y="194" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="500" fill="#64748B">沉淀方法与规则</text>
+    </g>
+  </g>
+
+  <g transform="translate(148 512)">
+    <rect width="904" height="54" rx="18" fill="#F1F7FF" stroke="#D7E7F8"/>
+    <text x="28" y="35" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="700" fill="#1E3A5F">圈子价值：少一点空泛焦虑，多一点可以复制的测试实践。</text>
+  </g>
+</svg>

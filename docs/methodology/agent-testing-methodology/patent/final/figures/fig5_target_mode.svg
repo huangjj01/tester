@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="560" viewBox="0 0 760 560">
+  <title>图5 目标产物模式的步骤裁剪示意图</title>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#111"/></marker>
+    <style><![CDATA[
+      text { font-family: Arial, 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif; fill:#111; font-size:14px; }
+      .title { font-size:20px; font-weight:700; }
+      .box { fill:#fff; stroke:#111; stroke-width:1.6; }
+      .dash { fill:#fff; stroke:#111; stroke-width:1.5; stroke-dasharray:6 4; }
+      .line { stroke:#111; stroke-width:1.5; fill:none; marker-end:url(#arrow); }
+      .plain { stroke:#111; stroke-width:1.5; fill:none; }
+      .small { font-size:12px; }
+      .bold { font-weight:700; }
+    ]]></style>
+  </defs>
+  <rect x="0" y="0" width="760" height="560" fill="#fff"/>
+  <text class="title" x="380" y="32" text-anchor="middle">图5 目标产物模式的步骤裁剪示意图</text>
+  <rect class="box" x="60" y="90" width="70" height="50" rx="0"/>
+  <text x="95" y="120" text-anchor="middle">输入资料</text>
+  <path class="line" d="M130,115 L140,115"/>
+  <rect class="box" x="140" y="90" width="70" height="50" rx="0"/>
+  <text x="175" y="120" text-anchor="middle">测试范围</text>
+  <path class="line" d="M210,115 L220,115"/>
+  <rect class="box" x="220" y="90" width="70" height="50" rx="0"/>
+  <text x="255" y="120" text-anchor="middle">环境前置</text>
+  <path class="line" d="M290,115 L300,115"/>
+  <rect class="box" x="300" y="90" width="70" height="50" rx="0"/>
+  <text x="335" y="120" text-anchor="middle">工具选型</text>
+  <path class="line" d="M370,115 L380,115"/>
+  <rect class="box" x="380" y="90" width="70" height="50" rx="0"/>
+  <text x="415" y="120" text-anchor="middle">实施指南</text>
+  <path class="line" d="M450,115 L460,115"/>
+  <rect class="box" x="460" y="90" width="70" height="50" rx="0"/>
+  <text x="495" y="120" text-anchor="middle">执行记录</text>
+  <path class="line" d="M530,115 L540,115"/>
+  <rect class="box" x="540" y="90" width="70" height="50" rx="0"/>
+  <text x="575" y="120" text-anchor="middle">最终报告</text>
+  <path class="line" d="M610,115 L620,115"/>
+  <rect class="box" x="620" y="90" width="70" height="50" rx="0"/>
+  <text x="655" y="120" text-anchor="middle">工程反思</text>
+  <text class="small" x="55" y="240" text-anchor="start">execution_guide</text>
+  <rect class="box" x="180" y="210" width="48" height="42" rx="0"/>
+  <text x="204" y="236" text-anchor="middle">必经</text>
+  <rect class="box" x="238" y="210" width="48" height="42" rx="0"/>
+  <text x="262" y="236" text-anchor="middle">必经</text>
+  <rect class="box" x="296" y="210" width="48" height="42" rx="0"/>
+  <text x="320" y="236" text-anchor="middle">必经</text>
+  <rect class="box" x="354" y="210" width="48" height="42" rx="0"/>
+  <text x="378" y="236" text-anchor="middle">必经</text>
+  <rect class="box" x="412" y="210" width="48" height="42" rx="0"/>
+  <text x="436" y="236" text-anchor="middle">必经</text>
+  <rect class="dash" x="470" y="210" width="48" height="42" rx="0"/>
+  <text x="494" y="236" text-anchor="middle">不要求</text>
+  <rect class="dash" x="528" y="210" width="48" height="42" rx="0"/>
+  <text x="552" y="236" text-anchor="middle">不要求</text>
+  <rect class="dash" x="586" y="210" width="48" height="42" rx="0"/>
+  <text x="610" y="236" text-anchor="middle">不要求</text>
+  <text class="small" x="436" y="270" text-anchor="middle">终点</text>
+  <text class="small" x="55" y="315" text-anchor="start">execution_record</text>
+  <rect class="box" x="180" y="285" width="48" height="42" rx="0"/>
+  <text x="204" y="311" text-anchor="middle">必经</text>
+  <rect class="box" x="238" y="285" width="48" height="42" rx="0"/>
+  <text x="262" y="311" text-anchor="middle">必经</text>
+  <rect class="box" x="296" y="285" width="48" height="42" rx="0"/>
+  <text x="320" y="311" text-anchor="middle">必经</text>
+  <rect class="box" x="354" y="285" width="48" height="42" rx="0"/>
+  <text x="378" y="311" text-anchor="middle">必经</text>
+  <rect class="box" x="412" y="285" width="48" height="42" rx="0"/>
+  <text x="436" y="311" text-anchor="middle">必经</text>
+  <rect class="box" x="470" y="285" width="48" height="42" rx="0"/>
+  <text x="494" y="311" text-anchor="middle">必经</text>
+  <rect class="dash" x="528" y="285" width="48" height="42" rx="0"/>
+  <text x="552" y="311" text-anchor="middle">不要求</text>
+  <rect class="dash" x="586" y="285" width="48" height="42" rx="0"/>
+  <text x="610" y="311" text-anchor="middle">不要求</text>
+  <text class="small" x="494" y="345" text-anchor="middle">终点</text>
+  <text class="small" x="55" y="390" text-anchor="start">report</text>
+  <rect class="box" x="180" y="360" width="48" height="42" rx="0"/>
+  <text x="204" y="386" text-anchor="middle">必经</text>
+  <rect class="box" x="238" y="360" width="48" height="42" rx="0"/>
+  <text x="262" y="386" text-anchor="middle">必经</text>
+  <rect class="box" x="296" y="360" width="48" height="42" rx="0"/>
+  <text x="320" y="386" text-anchor="middle">必经</text>
+  <rect class="box" x="354" y="360" width="48" height="42" rx="0"/>
+  <text x="378" y="386" text-anchor="middle">必经</text>
+  <rect class="box" x="412" y="360" width="48" height="42" rx="0"/>
+  <text x="436" y="386" text-anchor="middle">必经</text>
+  <rect class="box" x="470" y="360" width="48" height="42" rx="0"/>
+  <text x="494" y="386" text-anchor="middle">必经</text>
+  <rect class="box" x="528" y="360" width="48" height="42" rx="0"/>
+  <text x="552" y="386" text-anchor="middle">必经</text>
+  <rect class="dash" x="586" y="360" width="48" height="42" rx="0"/>
+  <text x="610" y="386" text-anchor="middle">不要求</text>
+  <text class="small" x="552" y="420" text-anchor="middle">终点</text>
+  <text class="small" x="55" y="465" text-anchor="start">full</text>
+  <rect class="box" x="180" y="435" width="48" height="42" rx="0"/>
+  <text x="204" y="461" text-anchor="middle">必经</text>
+  <rect class="box" x="238" y="435" width="48" height="42" rx="0"/>
+  <text x="262" y="461" text-anchor="middle">必经</text>
+  <rect class="box" x="296" y="435" width="48" height="42" rx="0"/>
+  <text x="320" y="461" text-anchor="middle">必经</text>
+  <rect class="box" x="354" y="435" width="48" height="42" rx="0"/>
+  <text x="378" y="461" text-anchor="middle">必经</text>
+  <rect class="box" x="412" y="435" width="48" height="42" rx="0"/>
+  <text x="436" y="461" text-anchor="middle">必经</text>
+  <rect class="box" x="470" y="435" width="48" height="42" rx="0"/>
+  <text x="494" y="461" text-anchor="middle">必经</text>
+  <rect class="box" x="528" y="435" width="48" height="42" rx="0"/>
+  <text x="552" y="461" text-anchor="middle">必经</text>
+  <rect class="box" x="586" y="435" width="48" height="42" rx="0"/>
+  <text x="610" y="461" text-anchor="middle">必经</text>
+  <text class="small" x="610" y="495" text-anchor="middle">终点</text>
+
+</svg>

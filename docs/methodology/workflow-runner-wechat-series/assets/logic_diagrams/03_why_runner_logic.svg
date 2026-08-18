@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1080" viewBox="0 0 1200 1080">
+  <defs>
+    <linearGradient id="paperWash" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B0C0F"/>
+      <stop offset="1" stop-color="#111318"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#000" flood-opacity="0.26"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="1080" fill="url(#paperWash)"/>
+  <g opacity="0.14">
+    <path d="M0 120H1200M0 240H1200M0 360H1200M0 480H1200M0 600H1200M0 720H1200M0 840H1200M0 960H1200M0 1080H1200M0 1200H1200M0 1320H1200" stroke="#2C3442"/>
+    <path d="M120 0V1080M240 0V1080M360 0V1080M480 0V1080M600 0V1080M720 0V1080M840 0V1080M960 0V1080M1080 0V1080" stroke="#2C3442"/>
+  </g>
+  <text x="58" y="74" fill="#8E744A" font-size="21" font-weight="850" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="58" dy="0">PART 03 · RUNNER</tspan></text>
+  <text x="58" y="138" fill="#F5F1E8" font-size="52" font-weight="920" text-anchor="start" font-family="PingFang SC, STSong, Songti SC, serif" letter-spacing="0"><tspan x="58" dy="0">Workflow Runner 的工作模式</tspan></text>
+  <text x="58" y="224" fill="#CFC5B4" font-size="24" font-weight="560" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="58" dy="0">它不是平台，也不是替代判断的系统，只是把流程推进和门禁校验做实。</tspan></text>
+  
+        <rect x="58" y="304" width="250" height="156" rx="22" fill="#151922" stroke="#8E744A" stroke-width="2.1" opacity="1"/>
+    <text x="82" y="354" fill="#F5F1E8" font-size="24" font-weight="900" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="82" dy="0">启动 run</tspan></text>
+    <text x="82" y="396" fill="#CFC5B4" font-size="17" font-weight="500" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="82" dy="0">为一次任务建立本地状</tspan><tspan x="82" dy="26">态目录。</tspan></text>
+        <rect x="336" y="304" width="250" height="156" rx="22" fill="#151922" stroke="#5C8D89" stroke-width="2.1" opacity="1"/>
+    <text x="360" y="354" fill="#F5F1E8" font-size="24" font-weight="900" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="360" dy="0">读 next</tspan></text>
+    <text x="360" y="396" fill="#CFC5B4" font-size="17" font-weight="500" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="360" dy="0">明确当前该做哪一步。</tspan></text>
+        <rect x="614" y="304" width="250" height="156" rx="22" fill="#151922" stroke="#D4B06A" stroke-width="2.1" opacity="1"/>
+    <text x="638" y="354" fill="#F5F1E8" font-size="24" font-weight="900" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="638" dy="0">提交产物</tspan></text>
+    <text x="638" y="396" fill="#CFC5B4" font-size="17" font-weight="500" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="638" dy="0">把当前步骤的文档或记</tspan><tspan x="638" dy="26">录落盘。</tspan></text>
+        <rect x="892" y="304" width="250" height="156" rx="22" fill="#151922" stroke="#A54E3D" stroke-width="2.1" opacity="1"/>
+    <text x="916" y="354" fill="#F5F1E8" font-size="24" font-weight="900" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="916" dy="0">门禁校验</tspan></text>
+    <text x="916" y="396" fill="#CFC5B4" font-size="17" font-weight="500" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="916" dy="0">检查依赖、结构和有效</tspan><tspan x="916" dy="26">内容。</tspan></text>
+        <path d="M 308 376 L 336 376 M 327.33974596215563 381 L 336 376 L 327.33974596215563 371" fill="none" stroke="#A54E3D" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M 586 376 L 614 376 M 605.3397459621556 381 L 614 376 L 605.3397459621556 371" fill="none" stroke="#A54E3D" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M 864 376 L 892 376 M 883.3397459621556 381 L 892 376 L 883.3397459621556 371" fill="none" stroke="#A54E3D" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+        <rect x="218" y="610" width="320" height="178" rx="22" fill="#151922" stroke="#4FA36B" stroke-width="2.1" opacity="1"/>
+    <text x="242" y="660" fill="#F5F1E8" font-size="24" font-weight="900" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="242" dy="0">通过</tspan></text>
+    <text x="242" y="702" fill="#CFC5B4" font-size="17" font-weight="500" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="242" dy="0">状态推进，进入下一步；若 targ</tspan><tspan x="242" dy="26">et 已达成，可进入 render 或收</tspan><tspan x="242" dy="26">尾。</tspan></text>
+        <rect x="662" y="610" width="320" height="178" rx="22" fill="#151922" stroke="#A54E3D" stroke-width="2.1" opacity="1"/>
+    <text x="686" y="660" fill="#F5F1E8" font-size="24" font-weight="900" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="686" dy="0">不通过</tspan></text>
+    <text x="686" y="702" fill="#CFC5B4" font-size="17" font-weight="500" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="686" dy="0">标记 blocked，Agent 必须补齐</tspan><tspan x="686" dy="26">后重新 complete。</tspan></text>
+        <path d="M 1018 448 L 1018 540 M 1013 531.3397459621556 L 1018 540 L 1023 531.3397459621556" fill="none" stroke="#8E744A" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M 1018 540 L 822 592 M 829.0884951391748 584.9464025730204 L 822 592 L 831.6528421294204 594.612018151638" fill="none" stroke="#8E744A" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M 1018 540 L 378 592 M 386.226893531256 586.3150881426906 L 378 592 L 387.0367248523334 596.2822428636429" fill="none" stroke="#8E744A" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+        <rect x="58" y="856" width="1084" height="190" rx="26" fill="rgba(21,25,34,0.92)" stroke="#2E3746" stroke-width="2" opacity="1"/>
+        <text x="86" y="886" fill="#F5F1E8" font-size="30" font-weight="900" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="86" dy="0">一句话职责边界</tspan></text>
+        <text x="86" y="942" fill="#CFC5B4" font-size="27" font-weight="760" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="86" dy="0">Runner 不替代 Agent 干活，也不替代人判断；它只负责让“没做完”这件事再也</tspan><tspan x="86" dy="38">装不成“做完了”。</tspan></text>
+      
+</svg>

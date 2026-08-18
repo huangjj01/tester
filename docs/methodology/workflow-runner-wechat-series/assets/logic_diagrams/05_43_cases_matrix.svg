@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="980" viewBox="0 0 1200 980">
+  <defs>
+    <linearGradient id="paperWash" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B0C0F"/>
+      <stop offset="1" stop-color="#111318"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#000" flood-opacity="0.26"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="980" fill="url(#paperWash)"/>
+  <g opacity="0.14">
+    <path d="M0 120H1200M0 240H1200M0 360H1200M0 480H1200M0 600H1200M0 720H1200M0 840H1200M0 960H1200M0 1080H1200M0 1200H1200M0 1320H1200" stroke="#2C3442"/>
+    <path d="M120 0V980M240 0V980M360 0V980M480 0V980M600 0V980M720 0V980M840 0V980M960 0V980M1080 0V980" stroke="#2C3442"/>
+  </g>
+  <text x="58" y="74" fill="#8E744A" font-size="21" font-weight="850" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="58" dy="0">PART 05 · COVERAGE</tspan></text>
+  <text x="58" y="138" fill="#F5F1E8" font-size="52" font-weight="920" text-anchor="start" font-family="PingFang SC, STSong, Songti SC, serif" letter-spacing="0"><tspan x="58" dy="0">43 条用例覆盖矩阵</tspan></text>
+  <text x="58" y="224" fill="#CFC5B4" font-size="24" font-weight="560" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="58" dy="0">不是随手跑几个 happy path，而是按维度系统性找薄弱点。</tspan></text>
+  
+        <rect x="58" y="286" width="1084" height="566" rx="26" fill="rgba(21,25,34,0.94)" stroke="#394356" stroke-width="2.2" opacity="1"/>
+        <text x="86" y="340" fill="#F5F1E8" font-size="30" font-weight="900" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="86" dy="0">覆盖维度</tspan></text>
+        <rect x="86" y="360" width="970" height="50" rx="16" fill="rgba(255,255,255,0.03)" stroke="#2E3746" stroke-width="1.4" opacity="1"/>
+            <text x="112" y="394" fill="#F5F1E8" font-size="24" font-weight="820" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="112" dy="0">命令基本行为</tspan></text>
+            <text x="856" y="394" fill="#4FA36B" font-size="24" font-weight="900" text-anchor="middle" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="856" dy="0">8 / 8</tspan></text>
+            <text x="1016" y="394" fill="#CFC5B4" font-size="21" font-weight="760" text-anchor="middle" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="1016" dy="0">全部通过</tspan></text><rect x="86" y="430" width="970" height="50" rx="16" fill="rgba(255,255,255,0.03)" stroke="#2E3746" stroke-width="1.4" opacity="1"/>
+            <text x="112" y="464" fill="#F5F1E8" font-size="24" font-weight="820" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="112" dy="0">门禁校验</tspan></text>
+            <text x="856" y="464" fill="#4FA36B" font-size="24" font-weight="900" text-anchor="middle" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="856" dy="0">9 / 9</tspan></text>
+            <text x="1016" y="464" fill="#CFC5B4" font-size="21" font-weight="760" text-anchor="middle" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="1016" dy="0">全部通过</tspan></text><rect x="86" y="500" width="970" height="50" rx="16" fill="rgba(255,255,255,0.03)" stroke="#2E3746" stroke-width="1.4" opacity="1"/>
+            <text x="112" y="534" fill="#F5F1E8" font-size="24" font-weight="820" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="112" dy="0">Target 模式</tspan></text>
+            <text x="856" y="534" fill="#4FA36B" font-size="24" font-weight="900" text-anchor="middle" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="856" dy="0">8 / 8</tspan></text>
+            <text x="1016" y="534" fill="#CFC5B4" font-size="21" font-weight="760" text-anchor="middle" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="1016" dy="0">全部通过</tspan></text><rect x="86" y="570" width="970" height="50" rx="16" fill="rgba(255,255,255,0.03)" stroke="#2E3746" stroke-width="1.4" opacity="1"/>
+            <text x="112" y="604" fill="#F5F1E8" font-size="24" font-weight="820" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="112" dy="0">中断恢复与幂等</tspan></text>
+            <text x="856" y="604" fill="#4FA36B" font-size="24" font-weight="900" text-anchor="middle" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="856" dy="0">7 / 7</tspan></text>
+            <text x="1016" y="604" fill="#CFC5B4" font-size="21" font-weight="760" text-anchor="middle" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="1016" dy="0">全部通过</tspan></text><rect x="86" y="640" width="970" height="50" rx="16" fill="rgba(255,255,255,0.03)" stroke="#2E3746" stroke-width="1.4" opacity="1"/>
+            <text x="112" y="674" fill="#F5F1E8" font-size="24" font-weight="820" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="112" dy="0">配置异常</tspan></text>
+            <text x="856" y="674" fill="#A54E3D" font-size="24" font-weight="900" text-anchor="middle" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="856" dy="0">5 / 7</tspan></text>
+            <text x="1016" y="674" fill="#CFC5B4" font-size="21" font-weight="760" text-anchor="middle" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="1016" dy="0">2 个失败点暴露在这里</tspan></text><rect x="86" y="710" width="970" height="50" rx="16" fill="rgba(255,255,255,0.03)" stroke="#2E3746" stroke-width="1.4" opacity="1"/>
+            <text x="112" y="744" fill="#F5F1E8" font-size="24" font-weight="820" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="112" dy="0">非目标边界</tspan></text>
+            <text x="856" y="744" fill="#4FA36B" font-size="24" font-weight="900" text-anchor="middle" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="856" dy="0">6 / 6</tspan></text>
+            <text x="1016" y="744" fill="#CFC5B4" font-size="21" font-weight="760" text-anchor="middle" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="1016" dy="0">全部通过</tspan></text>
+        <rect x="86" y="760" width="970" height="60" rx="18" fill="rgba(17,22,30,0.96)" stroke="#4FA36B" stroke-width="1.8" opacity="1"/>
+        <text x="571" y="800" fill="#CFC5B4" font-size="23" font-weight="780" text-anchor="middle" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="571" dy="0">大面积为绿，说明主链路成立；两个红点集中在配置异常维度，说明问题出在边界加固</tspan><tspan x="571" dy="30">。</tspan></text>
+      
+</svg>

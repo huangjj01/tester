@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" rx="36" fill="#0B111C"/>
+  <g opacity="0.07">
+    <path d="M0 110H1600M0 220H1600M0 330H1600M0 440H1600M0 550H1600M0 660H1600M0 770H1600" stroke="#A9B8CB"/>
+    <path d="M120 0V900M240 0V900M360 0V900M480 0V900M600 0V900M720 0V900M840 0V900M960 0V900M1080 0V900M1200 0V900M1320 0V900M1440 0V900" stroke="#A9B8CB"/>
+  </g>
+
+  <rect x="96" y="92" width="1408" height="716" rx="34" fill="#101827" stroke="#24364C" stroke-width="2"/>
+  <rect x="96" y="92" width="10" height="716" rx="5" fill="#59D9F5"/>
+
+  <g opacity="0.32">
+    <rect x="1060" y="188" width="220" height="132" rx="24" transform="rotate(8 1060 188)" fill="#111B2C" stroke="#E3C676" stroke-width="2.2"/>
+    <rect x="972" y="320" width="252" height="144" rx="24" transform="rotate(-6 972 320)" fill="#121C2D" stroke="#365069" stroke-width="2"/>
+    <rect x="1082" y="420" width="210" height="120" rx="24" transform="rotate(10 1082 420)" fill="#0F1726" stroke="#59D9F5" stroke-width="2.2"/>
+    <path d="M1050 350L1176 412" stroke="#E3C676" stroke-width="3"/>
+    <path d="M1030 548L1154 452" stroke="#59D9F5" stroke-width="3"/>
+    <circle cx="1126" cy="438" r="8" fill="#F0D78E"/>
+  </g>
+
+  <g font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif">
+    <rect x="154" y="156" width="82" height="7" rx="3.5" fill="#59D9F5"/>
+    <text x="260" y="170" fill="#59D9F5" font-size="32" font-weight="800">让 Agent 设计出高质量测试用例 · 连载第 1 篇</text>
+    <text x="154" y="340" fill="#F3F6FB" font-size="108" font-weight="900">快≠好</text>
+    <text x="154" y="466" fill="#F3F6FB" font-size="72" font-weight="850">Agent 用例设计最常见的七种翻车</text>
+    <rect x="154" y="548" width="780" height="76" rx="22" fill="#111C2C" stroke="#59D9F5" stroke-width="1.8"/>
+    <text x="194" y="597" fill="#D4DFEB" font-size="34" font-weight="750">快写出来不等于真能用，问题往往出在工程约束缺失</text>
+    <g transform="translate(1128 540)">
+      <rect x="0" y="0" width="228" height="72" rx="22" fill="#141C2C" stroke="#E3C676" stroke-width="1.8"/>
+      <text x="114" y="46" text-anchor="middle" fill="#F0D78E" font-size="30" font-weight="900">PROBLEM 01</text>
+    </g>
+    <text x="154" y="738" fill="#D3DCE6" font-size="30" font-weight="500">看起来像用例，不等于它真能证明问题。</text>
+  </g>
+</svg>

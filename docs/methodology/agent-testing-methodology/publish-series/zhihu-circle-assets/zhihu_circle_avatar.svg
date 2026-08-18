@@ -1,0 +1,40 @@
+<svg width="800" height="800" viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="86" y1="66" x2="714" y2="742" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#071827"/>
+      <stop offset="0.58" stop-color="#0B2D48"/>
+      <stop offset="1" stop-color="#1677FF"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="194" y1="174" x2="604" y2="614" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00D6A3"/>
+      <stop offset="1" stop-color="#48B7FF"/>
+    </linearGradient>
+    <filter id="shadow" x="75" y="76" width="650" height="650" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="30" stdDeviation="34" flood-color="#001221" flood-opacity="0.36"/>
+    </filter>
+    <pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse">
+      <path d="M52 0H0V52" stroke="#BFE9FF" stroke-opacity="0.08" stroke-width="2"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <rect width="800" height="800" fill="url(#grid)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="132" y="132" width="536" height="536" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.28" stroke-width="4"/>
+  </g>
+
+  <g transform="translate(216 176)">
+    <rect x="0" y="0" width="368" height="250" fill="#061421" fill-opacity="0.7" stroke="#7FD8FF" stroke-opacity="0.32" stroke-width="4"/>
+    <rect x="44" y="54" width="152" height="18" fill="#7FD8FF" fill-opacity="0.85"/>
+    <rect x="44" y="100" width="246" height="18" fill="#D7FFF4" fill-opacity="0.78"/>
+    <rect x="44" y="146" width="198" height="18" fill="#7FD8FF" fill-opacity="0.46"/>
+    <path d="M250 184L284 218L335 142" stroke="url(#accent)" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <text x="400" y="520" text-anchor="middle" font-family="Inter, PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="92" font-weight="900" fill="#FFFFFF" letter-spacing="0">AI TEST</text>
+  <text x="400" y="586" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="34" font-weight="800" fill="#DFF7FF">德彪谈测试</text>
+
+  <circle cx="618" cy="186" r="42" fill="#00D6A3"/>
+  <path d="M600 187L613 200L638 169" stroke="#071827" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

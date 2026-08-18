@@ -1,0 +1,46 @@
+<svg width="900" height="900" viewBox="0 0 900 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="incbgSquare" x1="60" y1="40" x2="840" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B111C"/>
+      <stop offset="1" stop-color="#0A1420"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="900" rx="28" fill="url(#incbgSquare)"/>
+  <text x="56" y="84" fill="#F7F4EA" font-size="40" font-weight="700" font-family="PingFang SC, Microsoft YaHei, sans-serif">从 25 条到 8 条</text>
+  <text x="56" y="126" fill="#D4DCE5" font-size="22" font-family="PingFang SC, Microsoft YaHei, sans-serif">先识别旧覆盖，再只保留真正新增的风险点</text>
+
+  <rect x="56" y="176" width="240" height="470" rx="24" fill="#161422" stroke="#724C4B" stroke-width="2"/>
+  <rect x="330" y="176" width="240" height="470" rx="24" fill="#111A28" stroke="#4E6A80" stroke-width="2"/>
+  <rect x="604" y="176" width="240" height="470" rx="24" fill="#111A28" stroke="#E2C877" stroke-width="2"/>
+
+  <text x="88" y="226" fill="#F5C5CA" font-size="28" font-weight="700" font-family="PingFang SC, Microsoft YaHei, sans-serif">原始生成</text>
+  <text x="362" y="226" fill="#A8ECF8" font-size="28" font-weight="700" font-family="PingFang SC, Microsoft YaHei, sans-serif">增量过滤</text>
+  <text x="636" y="226" fill="#F2DE98" font-size="28" font-weight="700" font-family="PingFang SC, Microsoft YaHei, sans-serif">最终保留</text>
+
+  <text x="98" y="304" fill="#F7F4EA" font-size="56" font-weight="700" font-family="SFMono-Regular, Menlo, monospace">25</text>
+  <text x="372" y="304" fill="#F7F4EA" font-size="56" font-weight="700" font-family="SFMono-Regular, Menlo, monospace">17</text>
+  <text x="646" y="304" fill="#F7F4EA" font-size="56" font-weight="700" font-family="SFMono-Regular, Menlo, monospace">8</text>
+
+  <g font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="18">
+    <text x="88" y="380" fill="#E1B6BC">基础下单</text>
+    <text x="88" y="412" fill="#E1B6BC">基础改单</text>
+    <text x="88" y="444" fill="#E1B6BC">基础撤单</text>
+    <text x="88" y="476" fill="#E1B6BC">恢复链路</text>
+
+    <text x="362" y="380" fill="#A8ECF8">存量索引对照</text>
+    <text x="362" y="412" fill="#A8ECF8">生命周期筛选</text>
+    <text x="362" y="444" fill="#A8ECF8">动作链筛选</text>
+    <text x="362" y="476" fill="#A8ECF8">缺陷邻域筛选</text>
+
+    <text x="636" y="380" fill="#F2DE98">新增语义触发条件</text>
+    <text x="636" y="412" fill="#F2DE98">生命周期衔接</text>
+    <text x="636" y="444" fill="#F2DE98">异常分支</text>
+    <text x="636" y="476" fill="#F2DE98">边界时间窗口</text>
+  </g>
+
+  <path d="M296 338H330" stroke="#E2C877" stroke-width="4"/>
+  <path d="M570 338H604" stroke="#E2C877" stroke-width="4"/>
+
+  <rect x="56" y="772" width="788" height="52" rx="14" fill="#0F1725" stroke="#31475D"/>
+  <text x="82" y="805" fill="#D5DEE8" font-size="18" font-family="PingFang SC, Microsoft YaHei, sans-serif">精准增量不是少写，而是先识别“已经有什么”，再只写“还缺什么”。</text>
+</svg>

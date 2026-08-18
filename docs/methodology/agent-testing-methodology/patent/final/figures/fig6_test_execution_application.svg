@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="510" viewBox="0 0 760 510">
+  <title>图6 测试实施场景应用示意图</title>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#111"/></marker>
+    <style><![CDATA[
+      text { font-family: Arial, 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif; fill:#111; font-size:14px; }
+      .title { font-size:20px; font-weight:700; }
+      .box { fill:#fff; stroke:#111; stroke-width:1.6; }
+      .dash { fill:#fff; stroke:#111; stroke-width:1.5; stroke-dasharray:6 4; }
+      .line { stroke:#111; stroke-width:1.5; fill:none; marker-end:url(#arrow); }
+      .plain { stroke:#111; stroke-width:1.5; fill:none; }
+      .small { font-size:12px; }
+      .bold { font-weight:700; }
+    ]]></style>
+  </defs>
+  <rect x="0" y="0" width="760" height="510" fill="#fff"/>
+  <text class="title" x="380" y="32" text-anchor="middle">图6 测试实施场景应用示意图</text>
+  <rect class="box" x="70" y="90" width="78" height="56" rx="0"/>
+  <text x="109" y="123" text-anchor="middle">测试请求</text>
+  <path class="line" d="M148,118 L162,118"/>
+  <rect class="box" x="162" y="90" width="78" height="56" rx="0"/>
+  <text x="201" y="123" text-anchor="middle">输入资料确认</text>
+  <path class="line" d="M240,118 L254,118"/>
+  <rect class="box" x="254" y="90" width="78" height="56" rx="0"/>
+  <text x="293" y="123" text-anchor="middle">环境前置判断</text>
+  <path class="line" d="M332,118 L346,118"/>
+  <rect class="box" x="346" y="90" width="78" height="56" rx="0"/>
+  <text x="385" y="123" text-anchor="middle">测试工具选型</text>
+  <path class="line" d="M424,118 L438,118"/>
+  <rect class="box" x="438" y="90" width="78" height="56" rx="0"/>
+  <text x="477" y="123" text-anchor="middle">测试实施指南</text>
+  <path class="line" d="M516,118 L530,118"/>
+  <rect class="box" x="530" y="90" width="78" height="56" rx="0"/>
+  <text x="569" y="123" text-anchor="middle">测试执行记录</text>
+  <path class="line" d="M608,118 L622,118"/>
+  <rect class="box" x="622" y="90" width="78" height="56" rx="0"/>
+  <text x="661" y="123" text-anchor="middle">最终报告</text>
+  <rect class="dash" x="80" y="230" width="180" height="70" rx="0"/>
+  <text x="170" y="261.5" text-anchor="middle">Agent 首次提交</text>
+  <text x="170" y="278.5" text-anchor="middle">工具选型表为占位符</text>
+  <rect class="dash" x="290" y="230" width="180" height="70" rx="0"/>
+  <text x="380" y="253" text-anchor="middle">Runner 返回</text>
+  <text x="380" y="270" text-anchor="middle">无有效数据行</text>
+  <text x="380" y="287" text-anchor="middle">状态 blocked</text>
+  <rect class="box" x="500" y="230" width="180" height="70" rx="0"/>
+  <text x="590" y="261.5" text-anchor="middle">Agent 补全工具</text>
+  <text x="590" y="278.5" text-anchor="middle">选择理由与风险</text>
+  <path class="line" d="M260,265 L290,265"/>
+  <path class="line" d="M470,265 L500,265"/>
+  <rect class="box" x="210" y="385" width="320" height="60" rx="0"/>
+  <text x="370" y="411.5" text-anchor="middle">重新 complete 后通过门禁，继续执行后续测试</text>
+  <text x="370" y="428.5" text-anchor="middle">交付</text>
+  <path class="line" d="M590,300 L370,385"/>
+
+</svg>

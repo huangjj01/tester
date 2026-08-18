@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="383" viewBox="0 0 900 383">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B0C0F"/>
+      <stop offset="1" stop-color="#111318"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="383" rx="28" fill="url(#bg)"/>
+  <g opacity="0.16">
+    <path d="M0 95H900M0 191H900M0 287H900" stroke="#2C3442"/>
+    <path d="M150 0V383M300 0V383M450 0V383M600 0V383M750 0V383" stroke="#2C3442"/>
+  </g>
+  <rect x="26" y="24" width="848" height="335" rx="26" fill="rgba(18,22,29,0.9)" stroke="#2E3746" stroke-width="2" opacity="1"/>
+  <rect x="26" y="24" width="10" height="335" rx="5" fill="#D4B06A"/>
+  <rect x="58" y="52" width="110" height="40" rx="20" fill="#171C24" stroke="#D4B06A" stroke-width="1.4" opacity="1"/><text x="113" y="79" fill="#D4B06A" font-size="18" font-weight="850" text-anchor="middle" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="113" dy="0">WR 04</tspan></text>
+  <text x="58" y="132" fill="#F5F1E8" font-size="46" font-weight="920" text-anchor="start" font-family="PingFang SC, STSong, Songti SC, serif" letter-spacing="0"><tspan x="58" dy="0">8 步流程</tspan></text>
+  <text x="58" y="202" fill="#CFC5B4" font-size="26" font-weight="780" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="58" dy="0">怎么真正拦住跳步骤</tspan></text>
+  <rect x="58" y="250" width="346" height="58" rx="18" fill="#10141B" stroke="#6D7C57" stroke-width="1.8" opacity="1"/>
+  <text x="231" y="286" fill="#F5F1E8" font-size="20" font-weight="900" text-anchor="middle" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="231" dy="0">MECHANISM</tspan></text>
+  <g opacity="0.9">
+    <rect x="574" y="76" width="186" height="94" rx="24" fill="#151922" stroke="#D4B06A" stroke-width="2"/>
+    <rect x="636" y="138" width="192" height="96" rx="24" fill="#1A202B" stroke="#6D7C57" stroke-width="2"/>
+    <rect x="550" y="214" width="172" height="86" rx="22" fill="#151922" stroke="#8E744A" stroke-width="2"/>
+    <path d="M 666 170 L 666 214 M 661 205.3397459621556 L 666 214 L 671 205.3397459621556" fill="none" stroke="#D4B06A" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M 722 262 L 756 262 M 747.3397459621556 267 L 756 262 L 747.3397459621556 257" fill="none" stroke="#D4B06A" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

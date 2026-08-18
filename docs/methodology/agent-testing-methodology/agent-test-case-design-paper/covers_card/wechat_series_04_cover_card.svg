@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="511" viewBox="0 0 1200 511">
+  <rect width="1200" height="511" rx="24" fill="#0B111C"/>
+  <g opacity="0.08">
+    <path d="M0 64H1200M0 128H1200M0 192H1200M0 256H1200M0 320H1200M0 384H1200M0 448H1200" stroke="#A7B8CC"/>
+    <path d="M64 0V511M128 0V511M192 0V511M256 0V511M320 0V511M384 0V511M448 0V511M512 0V511M576 0V511M640 0V511M704 0V511M768 0V511M832 0V511M896 0V511M960 0V511M1024 0V511M1088 0V511M1152 0V511" stroke="#A7B8CC"/>
+  </g>
+
+  <rect x="68" y="58" width="1064" height="392" rx="28" fill="#101827" stroke="#24364C" stroke-width="1.5"/>
+  <rect x="68" y="58" width="7" height="392" rx="3.5" fill="#E3C676"/>
+
+  <g opacity="0.34">
+    <rect x="820" y="108" width="88" height="198" rx="18" fill="#111A28" stroke="#6C4A4A" stroke-width="1.6"/>
+    <rect x="940" y="92" width="88" height="214" rx="18" fill="#111A28" stroke="#59D9F5" stroke-width="1.8"/>
+    <rect x="1060" y="76" width="88" height="230" rx="18" fill="#111A28" stroke="#E3C676" stroke-width="1.8"/>
+    <path d="M864 208H940" stroke="#627892" stroke-width="3"/>
+    <path d="M984 192H1060" stroke="#59D9F5" stroke-width="3"/>
+    <path d="M1104 176H1180" stroke="#E3C676" stroke-width="3"/>
+    <rect x="882" y="352" width="220" height="44" rx="14" fill="#0F1725" stroke="#31475D"/>
+    <text x="992" y="380" text-anchor="middle" fill="#D5DEE8" font-size="17" font-family="PingFang SC, Microsoft YaHei, sans-serif">25 → 17 → 8</text>
+  </g>
+
+  <g font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif">
+    <rect x="112" y="104" width="62" height="5" rx="2.5" fill="#E3C676"/>
+    <text x="190" y="115" fill="#E3C676" font-size="25" font-weight="800">让 Agent 设计出高质量测试用例 · 连载第 4 篇</text>
+    <text x="112" y="220" fill="#F3F6FB" font-size="66" font-weight="900">精准增量</text>
+    <text x="112" y="294" fill="#F3F6FB" font-size="48" font-weight="850">别再每次从零开始</text>
+    <rect x="112" y="336" width="560" height="52" rx="16" fill="#111C2C" stroke="#59D9F5" stroke-width="1.2"/>
+    <text x="138" y="370" fill="#D4DFEB" font-size="24" font-weight="750">先识别旧覆盖，再只保留真正新增的风险点</text>
+    <g transform="translate(850 332)">
+      <rect x="0" y="0" width="214" height="56" rx="18" fill="#141C2C" stroke="#E3C676" stroke-width="1.5"/>
+      <text x="107" y="36" text-anchor="middle" fill="#F0D78E" font-size="22" font-weight="900">INCREMENT 04</text>
+    </g>
+  </g>
+</svg>

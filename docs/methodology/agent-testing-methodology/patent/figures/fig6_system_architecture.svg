@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="590" viewBox="0 0 760 590">
+<title>图6 系统模块架构图</title>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#111"/></marker><style><![CDATA[text{font-family:Arial,'Noto Sans CJK SC','Microsoft YaHei',sans-serif;fill:#111;font-size:14px}.title{font-size:20px;font-weight:700}.box{fill:#fff;stroke:#111;stroke-width:1.6}.dash{fill:#fff;stroke:#111;stroke-width:1.5;stroke-dasharray:6 4}.line{stroke:#111;stroke-width:1.5;fill:none;marker-end:url(#arrow)}.small{font-size:12px}.bold{font-weight:700}]]></style></defs>
+<rect x="0" y="0" width="760" height="590" fill="#fff"/>
+<text class="title" x="380" y="32" text-anchor="middle">图6 系统模块架构图</text>
+<rect class="box" x="70" y="70" width="620" height="60"/>
+<text x="380" y="96.5" text-anchor="middle">命令行接口层</text>
+<text x="380" y="113.5" text-anchor="middle">start | status | next | complete | validate | render</text>
+<rect class="box" x="70" y="165" width="620" height="250"/>
+<text x="380" y="295" text-anchor="middle">核心逻辑层</text>
+<rect class="box" x="100" y="215" width="165" height="75"/>
+<text x="182.5" y="232" text-anchor="middle">工作流配置模块</text>
+<text x="182.5" y="249" text-anchor="middle">步骤序列</text>
+<text x="182.5" y="266" text-anchor="middle">依赖关系</text>
+<text x="182.5" y="283" text-anchor="middle">校验规则</text>
+<rect class="box" x="295" y="215" width="165" height="75"/>
+<text x="377.5" y="232" text-anchor="middle">状态管理模块</text>
+<text x="377.5" y="249" text-anchor="middle">运行实例</text>
+<text x="377.5" y="266" text-anchor="middle">步骤状态</text>
+<text x="377.5" y="283" text-anchor="middle">持久化</text>
+<rect class="box" x="490" y="215" width="165" height="75"/>
+<text x="572.5" y="232" text-anchor="middle">门禁校验模块</text>
+<text x="572.5" y="249" text-anchor="middle">标题校验</text>
+<text x="572.5" y="266" text-anchor="middle">表格校验</text>
+<text x="572.5" y="283" text-anchor="middle">依赖校验</text>
+<rect class="box" x="100" y="320" width="165" height="75"/>
+<text x="182.5" y="337" text-anchor="middle">目标产物模式模块</text>
+<text x="182.5" y="354" text-anchor="middle">目标类型</text>
+<text x="182.5" y="371" text-anchor="middle">必经步骤</text>
+<text x="182.5" y="388" text-anchor="middle">动态裁剪</text>
+<rect class="box" x="295" y="320" width="165" height="75"/>
+<text x="377.5" y="345.5" text-anchor="middle">中断恢复模块</text>
+<text x="377.5" y="362.5" text-anchor="middle">状态读取</text>
+<text x="377.5" y="379.5" text-anchor="middle">进度恢复</text>
+<rect class="box" x="490" y="320" width="165" height="75"/>
+<text x="572.5" y="345.5" text-anchor="middle">产物合并模块</text>
+<text x="572.5" y="362.5" text-anchor="middle">顺序合并</text>
+<text x="572.5" y="379.5" text-anchor="middle">文档输出</text>
+<rect class="box" x="70" y="455" width="620" height="90"/>
+<text x="380" y="496.5" text-anchor="middle">存储层</text>
+<text x="380" y="513.5" text-anchor="middle">配置文件(YAML) | 状态文件(JSON) | 产物文件(MD)</text>
+<path class="line" d="M380,130 L380,165"/>
+<path class="line" d="M380,415 L380,455"/>
+
+</svg>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="550" viewBox="0 0 760 550">
+  <title>图7 分层约束模型层间关系图</title>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#111"/></marker>
+    <style><![CDATA[
+      text { font-family: Arial, 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif; fill:#111; font-size:14px; }
+      .title { font-size:20px; font-weight:700; }
+      .box { fill:#fff; stroke:#111; stroke-width:1.6; }
+      .dash { fill:#fff; stroke:#111; stroke-width:1.5; stroke-dasharray:6 4; }
+      .line { stroke:#111; stroke-width:1.5; fill:none; marker-end:url(#arrow); }
+      .plain { stroke:#111; stroke-width:1.5; fill:none; }
+      .small { font-size:12px; }
+      .bold { font-weight:700; }
+    ]]></style>
+  </defs>
+  <rect x="0" y="0" width="760" height="550" fill="#fff"/>
+  <text class="title" x="380" y="32" text-anchor="middle">图7 分层约束模型层间关系图</text>
+  <rect class="box" x="250" y="70" width="220" height="48" rx="0"/>
+  <text x="360" y="99" text-anchor="middle">任务路由层</text>
+  <path class="line" d="M360,118 L360,140"/>
+  <rect class="box" x="250" y="140" width="220" height="48" rx="0"/>
+  <text x="360" y="169" text-anchor="middle">需求与用例层</text>
+  <path class="line" d="M360,188 L360,210"/>
+  <rect class="box" x="250" y="210" width="220" height="48" rx="0"/>
+  <text x="360" y="239" text-anchor="middle">测试实施设计层</text>
+  <path class="line" d="M360,258 L360,280"/>
+  <rect class="box" x="250" y="280" width="220" height="48" rx="0"/>
+  <text x="360" y="309" text-anchor="middle">执行证据层</text>
+  <path class="line" d="M360,328 L360,350"/>
+  <rect class="box" x="250" y="350" width="220" height="48" rx="0"/>
+  <text x="360" y="379" text-anchor="middle">判断基线层</text>
+  <path class="line" d="M360,398 L360,420"/>
+  <rect class="box" x="250" y="420" width="220" height="48" rx="0"/>
+  <text x="360" y="449" text-anchor="middle">交付与沉淀层</text>
+  <rect class="dash" x="500" y="70" width="180" height="48" rx="0"/>
+  <text x="590" y="99" text-anchor="middle">入口不确定性</text>
+  <path class="line" d="M470,94 L500,94"/>
+  <rect class="dash" x="500" y="140" width="180" height="48" rx="0"/>
+  <text x="590" y="169" text-anchor="middle">需求和覆盖不确定性</text>
+  <path class="line" d="M470,164 L500,164"/>
+  <rect class="dash" x="500" y="210" width="180" height="48" rx="0"/>
+  <text x="590" y="239" text-anchor="middle">环境和工具不确定性</text>
+  <path class="line" d="M470,234 L500,234"/>
+  <rect class="dash" x="500" y="280" width="180" height="48" rx="0"/>
+  <text x="590" y="309" text-anchor="middle">事实和归因不确定性</text>
+  <path class="line" d="M470,304 L500,304"/>
+  <rect class="dash" x="500" y="350" width="180" height="48" rx="0"/>
+  <text x="590" y="379" text-anchor="middle">结论定性不确定性</text>
+  <path class="line" d="M470,374 L500,374"/>
+  <rect class="dash" x="500" y="420" width="180" height="48" rx="0"/>
+  <text x="590" y="449" text-anchor="middle">报告和沉淀不确定性</text>
+  <path class="line" d="M470,444 L500,444"/>
+  <path class="line" d="M250,420 L120,420 L120,94 L250,94"/>
+  <text class="small" x="118" y="258" text-anchor="middle">反馈修正</text>
+
+</svg>

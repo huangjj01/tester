@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="511" viewBox="0 0 1200 511">
+  <rect width="1200" height="511" rx="24" fill="#0B111C"/>
+
+  <g opacity="0.08">
+    <path d="M0 64H1200M0 128H1200M0 192H1200M0 256H1200M0 320H1200M0 384H1200M0 448H1200" stroke="#A7B8CC"/>
+    <path d="M64 0V511M128 0V511M192 0V511M256 0V511M320 0V511M384 0V511M448 0V511M512 0V511M576 0V511M640 0V511M704 0V511M768 0V511M832 0V511M896 0V511M960 0V511M1024 0V511M1088 0V511M1152 0V511" stroke="#A7B8CC"/>
+  </g>
+
+  <rect x="68" y="58" width="1064" height="392" rx="28" fill="#101827" stroke="#24364C" stroke-width="1.5"/>
+  <rect x="68" y="58" width="7" height="392" rx="3.5" fill="#59D9F5"/>
+
+  <g opacity="0.34">
+    <path d="M774 98H1012Q1048 98 1062 128L1094 206Q1102 226 1092 242L1006 368Q992 388 968 388H854" fill="none" stroke="#59D9F5" stroke-width="2"/>
+    <path d="M816 124H992Q1020 124 1032 148L1054 204Q1060 220 1052 232L986 330Q976 344 958 344H886" fill="none" stroke="#9D7EF7" stroke-width="1.6"/>
+    <circle cx="774" cy="98" r="5" fill="#59D9F5"/>
+    <circle cx="1012" cy="98" r="5" fill="#59D9F5"/>
+    <circle cx="1054" cy="204" r="5" fill="#9D7EF7"/>
+    <circle cx="854" cy="388" r="5" fill="#59D9F5"/>
+  </g>
+
+  <g font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif">
+    <rect x="112" y="104" width="62" height="5" rx="2.5" fill="#59D9F5"/>
+    <text x="190" y="115" fill="#59D9F5" font-size="25" font-weight="800">让 Agent 设计出高质量测试用例 · 连载第 3 篇</text>
+
+    <text x="112" y="222" fill="#F3F6FB" font-size="66" font-weight="900">断言是灵魂</text>
+    <text x="112" y="296" fill="#F3F6FB" font-size="48" font-weight="850">弱断言制造“假通过”</text>
+
+    <rect x="112" y="338" width="520" height="52" rx="16" fill="#111C2C" stroke="#59D9F5" stroke-width="1.2"/>
+    <text x="138" y="371" fill="#D4DFEB" font-size="24" font-weight="750">从“有响应”走到“真证明”，断言才是用例的灵魂</text>
+
+    <g transform="translate(858 332)">
+      <rect x="0" y="0" width="198" height="56" rx="18" fill="#141C2C" stroke="#9D7EF7" stroke-width="1.5"/>
+      <text x="99" y="36" text-anchor="middle" fill="#B39AFF" font-size="22" font-weight="900">ASSERT 03</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="620" viewBox="0 0 760 620">
+<title>图5 工程资产协同关系图</title>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#111"/></marker><style><![CDATA[text{font-family:Arial,'Noto Sans CJK SC','Microsoft YaHei',sans-serif;fill:#111;font-size:14px}.title{font-size:20px;font-weight:700}.box{fill:#fff;stroke:#111;stroke-width:1.6}.dash{fill:#fff;stroke:#111;stroke-width:1.5;stroke-dasharray:6 4}.line{stroke:#111;stroke-width:1.5;fill:none;marker-end:url(#arrow)}.small{font-size:12px}.bold{font-weight:700}]]></style></defs>
+<rect x="0" y="0" width="760" height="620" fill="#fff"/>
+<text class="title" x="380" y="32" text-anchor="middle">图5 工程资产协同关系图</text>
+<rect class="box" x="70" y="80" width="140" height="55"/>
+<text x="140" y="104" text-anchor="middle">Rules</text>
+<text x="140" y="121" text-anchor="middle">红线入口</text>
+<rect class="box" x="285" y="80" width="150" height="55"/>
+<text x="360" y="104" text-anchor="middle">Workflows</text>
+<text x="360" y="121" text-anchor="middle">路由</text>
+<rect class="box" x="510" y="80" width="140" height="55"/>
+<text x="580" y="104" text-anchor="middle">Skills</text>
+<text x="580" y="121" text-anchor="middle">步骤</text>
+<path class="line" d="M210,108 L285,108"/>
+<path class="line" d="M435,108 L510,108"/>
+<rect class="box" x="160" y="220" width="150" height="60"/>
+<text x="235" y="246.5" text-anchor="middle">Templates</text>
+<text x="235" y="263.5" text-anchor="middle">结构模板</text>
+<rect class="box" x="430" y="220" width="150" height="60"/>
+<text x="505" y="246.5" text-anchor="middle">Dictionaries</text>
+<text x="505" y="263.5" text-anchor="middle">判断基线</text>
+<rect class="box" x="295" y="360" width="150" height="60"/>
+<text x="370" y="386.5" text-anchor="middle">Records</text>
+<text x="370" y="403.5" text-anchor="middle">执行事实</text>
+<rect class="dash" x="295" y="500" width="150" height="60"/>
+<text x="370" y="526.5" text-anchor="middle">反思候选</text>
+<text x="370" y="543.5" text-anchor="middle">资产回补</text>
+<path class="line" d="M580,135 L505,220"/>
+<path class="line" d="M235,280 L330,360"/>
+<path class="line" d="M505,280 L405,360"/>
+<path class="line" d="M370,420 L370,500"/>
+<path class="line" d="M295,530 L140,135"/>
+<path class="line" d="M445,530 L580,135"/>
+
+</svg>

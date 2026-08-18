@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="960" viewBox="0 0 1200 960">
+  <defs>
+    <linearGradient id="paperWash" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B0C0F"/>
+      <stop offset="1" stop-color="#111318"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#000" flood-opacity="0.26"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="960" fill="url(#paperWash)"/>
+  <g opacity="0.14">
+    <path d="M0 120H1200M0 240H1200M0 360H1200M0 480H1200M0 600H1200M0 720H1200M0 840H1200M0 960H1200M0 1080H1200M0 1200H1200M0 1320H1200" stroke="#2C3442"/>
+    <path d="M120 0V960M240 0V960M360 0V960M480 0V960M600 0V960M720 0V960M840 0V960M960 0V960M1080 0V960" stroke="#2C3442"/>
+  </g>
+  <text x="58" y="74" fill="#8E744A" font-size="21" font-weight="850" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="58" dy="0">PART 03 · COMPARISON</tspan></text>
+  <text x="58" y="138" fill="#F5F1E8" font-size="52" font-weight="920" text-anchor="start" font-family="PingFang SC, STSong, Songti SC, serif" letter-spacing="0"><tspan x="58" dy="0">平台方案 vs CLI Runner</tspan></text>
+  <text x="58" y="224" fill="#CFC5B4" font-size="24" font-weight="560" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="58" dy="0">不是能力越多越好，而是谁能以最低成本把那道门真正装上。</tspan></text>
+  
+        <rect x="58" y="286" width="512" height="560" rx="28" fill="rgba(21,25,34,0.94)" stroke="#A54E3D" stroke-width="2.2" opacity="1"/>
+        <text x="86" y="344" fill="#F5F1E8" font-size="34" font-weight="920" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="86" dy="0">平台方案</tspan></text>
+        <text x="86" y="392" fill="#A54E3D" font-size="24" font-weight="780" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="86" dy="0">高成本 / 高复杂度</tspan></text>
+        <rect x="86" y="438" width="456" height="118" rx="22" fill="#151922" stroke="#A54E3D" stroke-width="2.1" opacity="1"/>
+    <text x="110" y="488" fill="#F5F1E8" font-size="24" font-weight="900" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="110" dy="0">要维护服务端和前端</tspan></text>
+    <text x="110" y="530" fill="#CFC5B4" font-size="17" font-weight="500" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="110" dy="0">多租户、权限、可视化面板、状态管理，问题空间</tspan><tspan x="110" dy="26">立刻膨胀。</tspan></text>
+        <rect x="86" y="592" width="456" height="118" rx="22" fill="#151922" stroke="#D4B06A" stroke-width="2.1" opacity="1"/>
+    <text x="110" y="642" fill="#F5F1E8" font-size="24" font-weight="900" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="110" dy="0">解决的是更大的问题</tspan></text>
+    <text x="110" y="684" fill="#CFC5B4" font-size="17" font-weight="500" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="110" dy="0">适合团队平台化，不适合先解决“Agent 会不会跳</tspan><tspan x="110" dy="26">步骤”这个局部痛点。</tspan></text>
+        <rect x="86" y="746" width="456" height="72" rx="22" fill="#151922" stroke="#8E744A" stroke-width="2.1" opacity="1"/>
+    <text x="110" y="796" fill="#F5F1E8" font-size="24" font-weight="900" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="110" dy="0">结果</tspan></text>
+    <text x="110" y="838" fill="#CFC5B4" font-size="17" font-weight="500" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="110" dy="0">门可能还没装好，平台先变重了。</tspan></text>
+
+        <rect x="630" y="286" width="512" height="560" rx="28" fill="rgba(21,25,34,0.94)" stroke="#4FA36B" stroke-width="2.2" opacity="1"/>
+        <text x="658" y="344" fill="#F5F1E8" font-size="34" font-weight="920" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="658" dy="0">CLI Runner</tspan></text>
+        <text x="658" y="392" fill="#4FA36B" font-size="24" font-weight="780" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="658" dy="0">低成本 / 精准命中</tspan></text>
+        <rect x="658" y="438" width="456" height="118" rx="22" fill="#151922" stroke="#5C8D89" stroke-width="2.1" opacity="1"/>
+    <text x="682" y="488" fill="#F5F1E8" font-size="24" font-weight="900" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="682" dy="0">本地脚本 + YAML + JSON</tspan></text>
+    <text x="682" y="530" fill="#CFC5B4" font-size="17" font-weight="500" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="682" dy="0">不引入额外服务，直接贴着仓库和现有 skill 工作</tspan><tspan x="682" dy="26">。</tspan></text>
+        <rect x="658" y="592" width="456" height="118" rx="22" fill="#151922" stroke="#4FA36B" stroke-width="2.1" opacity="1"/>
+    <text x="682" y="642" fill="#F5F1E8" font-size="24" font-weight="900" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="682" dy="0">只管一件事</tspan></text>
+    <text x="682" y="684" fill="#CFC5B4" font-size="17" font-weight="500" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="682" dy="0">定义步骤、检查产物、没过就卡住，把门禁做实就</tspan><tspan x="682" dy="26">够。</tspan></text>
+        <rect x="658" y="746" width="456" height="72" rx="22" fill="#151922" stroke="#6D7C57" stroke-width="2.1" opacity="1"/>
+    <text x="682" y="796" fill="#F5F1E8" font-size="24" font-weight="900" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="682" dy="0">结果</tspan></text>
+    <text x="682" y="838" fill="#CFC5B4" font-size="17" font-weight="500" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="682" dy="0">先把最关键的执行保障补上。</tspan></text>
+
+        <text x="600" y="910" fill="#CFC5B4" font-size="24" font-weight="800" text-anchor="middle" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="600" dy="0">选择轻量方案，不是因为想得少，而是因为问题本身就应该被窄打。</tspan></text>
+      
+</svg>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1240" viewBox="0 0 1200 1240">
+  <defs>
+    <linearGradient id="paperWash" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B0C0F"/>
+      <stop offset="1" stop-color="#111318"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#000" flood-opacity="0.26"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="1240" fill="url(#paperWash)"/>
+  <g opacity="0.14">
+    <path d="M0 120H1200M0 240H1200M0 360H1200M0 480H1200M0 600H1200M0 720H1200M0 840H1200M0 960H1200M0 1080H1200M0 1200H1200M0 1320H1200" stroke="#2C3442"/>
+    <path d="M120 0V1240M240 0V1240M360 0V1240M480 0V1240M600 0V1240M720 0V1240M840 0V1240M960 0V1240M1080 0V1240" stroke="#2C3442"/>
+  </g>
+  <text x="58" y="74" fill="#8E744A" font-size="21" font-weight="850" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="58" dy="0">PART 04 · MECHANISM</tspan></text>
+  <text x="58" y="138" fill="#F5F1E8" font-size="52" font-weight="920" text-anchor="start" font-family="PingFang SC, STSong, Songti SC, serif" letter-spacing="0"><tspan x="58" dy="0">8 步流程怎么防跳步、怎么防乱套</tspan></text>
+  <text x="58" y="224" fill="#CFC5B4" font-size="24" font-weight="560" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="58" dy="0">流程不是为了复杂，而是为了在关键位置把证据、前置和交付接起来。</tspan></text>
+  
+        <rect x="58" y="278" width="1084" height="344" rx="26" fill="rgba(21,25,34,0.94)" stroke="#394356" stroke-width="2.2" opacity="1"/>
+        <text x="86" y="326" fill="#F5F1E8" font-size="30" font-weight="900" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="86" dy="0">固定序列</tspan></text>
+        <rect x="86" y="366" width="230" height="96" rx="22" fill="#151922" stroke="#8E744A" stroke-width="2.1" opacity="1"/>
+    <text x="106" y="420" fill="#F5F1E8" font-size="20" font-weight="860" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="106" dy="0">1. 输入资料</tspan></text>
+    <rect x="344" y="366" width="230" height="96" rx="22" fill="#151922" stroke="#5C8D89" stroke-width="2.1" opacity="1"/>
+    <text x="364" y="420" fill="#F5F1E8" font-size="20" font-weight="860" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="364" dy="0">2. 范围口径</tspan></text>
+    <rect x="602" y="366" width="230" height="96" rx="22" fill="#151922" stroke="#D4B06A" stroke-width="2.1" opacity="1"/>
+    <text x="622" y="420" fill="#F5F1E8" font-size="20" font-weight="860" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="622" dy="0">3. 环境前置</tspan></text>
+    <rect x="860" y="366" width="230" height="96" rx="22" fill="#151922" stroke="#A54E3D" stroke-width="2.1" opacity="1"/>
+    <text x="880" y="420" fill="#F5F1E8" font-size="20" font-weight="860" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="880" dy="0">4. 工具选型</tspan></text>
+    <rect x="86" y="482" width="230" height="96" rx="22" fill="#151922" stroke="#8E744A" stroke-width="2.1" opacity="1"/>
+    <text x="106" y="536" fill="#F5F1E8" font-size="20" font-weight="860" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="106" dy="0">5. 实施指南</tspan></text>
+    <rect x="344" y="482" width="230" height="96" rx="22" fill="#151922" stroke="#5C8D89" stroke-width="2.1" opacity="1"/>
+    <text x="364" y="536" fill="#F5F1E8" font-size="20" font-weight="860" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="364" dy="0">6. 执行记录</tspan></text>
+    <rect x="602" y="482" width="230" height="96" rx="22" fill="#151922" stroke="#D4B06A" stroke-width="2.1" opacity="1"/>
+    <text x="622" y="536" fill="#F5F1E8" font-size="20" font-weight="860" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="622" dy="0">7. 最终报告</tspan></text>
+    <rect x="860" y="482" width="230" height="96" rx="22" fill="#151922" stroke="#6D7C57" stroke-width="2.1" opacity="1"/>
+    <text x="880" y="536" fill="#F5F1E8" font-size="20" font-weight="860" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="880" dy="0">8. 工程反思</tspan></text>
+    
+
+        <rect x="58" y="688" width="520" height="500" rx="26" fill="rgba(21,25,34,0.92)" stroke="#2E3746" stroke-width="2" opacity="1"/>
+        <text x="86" y="726" fill="#F5F1E8" font-size="30" font-weight="900" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="86" dy="0">防跳步</tspan></text>
+        <rect x="86" y="768" width="464" height="126" rx="22" fill="#151922" stroke="#A54E3D" stroke-width="2.1" opacity="1"/>
+    <text x="110" y="818" fill="#F5F1E8" font-size="24" font-weight="900" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="110" dy="0">依赖没满足，就进不了下一步</tspan></text>
+    <text x="110" y="860" fill="#CFC5B4" font-size="17" font-weight="500" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="110" dy="0">环境前置没过，就别谈工具选型；执行记录没落盘，</tspan><tspan x="110" dy="26">就别生成报告。</tspan></text>
+        <rect x="86" y="922" width="464" height="126" rx="22" fill="#151922" stroke="#D4B06A" stroke-width="2.1" opacity="1"/>
+    <text x="110" y="972" fill="#F5F1E8" font-size="24" font-weight="900" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="110" dy="0">标题存在不算完成</tspan></text>
+    <text x="110" y="1014" fill="#CFC5B4" font-size="17" font-weight="500" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="110" dy="0">只有文件、标题和有效内容都过关，才能标 comple</tspan><tspan x="110" dy="26">ted。</tspan></text>
+        <rect x="86" y="1076" width="464" height="92" rx="22" fill="#151922" stroke="#8E744A" stroke-width="2.1" opacity="1"/>
+    <text x="110" y="1126" fill="#F5F1E8" font-size="24" font-weight="900" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="110" dy="0">空壳产物过不了门</tspan></text>
+    <text x="110" y="1168" fill="#CFC5B4" font-size="17" font-weight="500" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="110" dy="0">空章节、空表格、占位符数据都会被挡回去。</tspan></text>
+
+        <rect x="622" y="688" width="520" height="500" rx="26" fill="rgba(21,25,34,0.92)" stroke="#2E3746" stroke-width="2" opacity="1"/>
+        <text x="650" y="726" fill="#F5F1E8" font-size="30" font-weight="900" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="650" dy="0">防中断乱套</tspan></text>
+        <rect x="650" y="768" width="464" height="126" rx="22" fill="#151922" stroke="#5C8D89" stroke-width="2.1" opacity="1"/>
+    <text x="674" y="818" fill="#F5F1E8" font-size="24" font-weight="900" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="674" dy="0">状态写进文件</tspan></text>
+    <text x="674" y="860" fill="#CFC5B4" font-size="17" font-weight="500" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="674" dy="0">run.json 和 checklist.json 让进度不再只活在聊</tspan><tspan x="674" dy="26">天上下文里。</tspan></text>
+        <rect x="650" y="922" width="464" height="126" rx="22" fill="#151922" stroke="#6D7C57" stroke-width="2.1" opacity="1"/>
+    <text x="674" y="972" fill="#F5F1E8" font-size="24" font-weight="900" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="674" dy="0">恢复靠 status / next</tspan></text>
+    <text x="674" y="1014" fill="#CFC5B4" font-size="17" font-weight="500" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="674" dy="0">不是猜“上次做到哪了”，而是直接读取当前状态。</tspan></text>
+        <rect x="650" y="1076" width="464" height="92" rx="22" fill="#151922" stroke="#8E744A" stroke-width="2.1" opacity="1"/>
+    <text x="674" y="1126" fill="#F5F1E8" font-size="24" font-weight="900" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="674" dy="0">blocked 就先补齐</tspan></text>
+    <text x="674" y="1168" fill="#CFC5B4" font-size="17" font-weight="500" text-anchor="start" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif" letter-spacing="0"><tspan x="674" dy="0">恢复后仍要重新过 complete，不允许直接假装完成</tspan><tspan x="674" dy="26">。</tspan></text>
+      
+</svg>

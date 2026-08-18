@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="640" viewBox="0 0 760 640">
+<title>图1 本发明方法总体流程图</title>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#111"/></marker><style><![CDATA[text{font-family:Arial,'Noto Sans CJK SC','Microsoft YaHei',sans-serif;fill:#111;font-size:14px}.title{font-size:20px;font-weight:700}.box{fill:#fff;stroke:#111;stroke-width:1.6}.dash{fill:#fff;stroke:#111;stroke-width:1.5;stroke-dasharray:6 4}.line{stroke:#111;stroke-width:1.5;fill:none;marker-end:url(#arrow)}.small{font-size:12px}.bold{font-weight:700}]]></style></defs>
+<rect x="0" y="0" width="760" height="640" fill="#fff"/>
+<text class="title" x="380" y="32" text-anchor="middle">图1 本发明方法总体流程图</text>
+<rect class="box" x="230" y="65" width="260" height="50"/>
+<text x="360" y="95" text-anchor="middle">用户测试请求</text>
+<path class="line" d="M360,115 L360,140"/>
+<rect class="box" x="230" y="140" width="260" height="50"/>
+<text x="360" y="161.5" text-anchor="middle">S1 任务路由</text>
+<text x="360" y="178.5" text-anchor="middle">匹配工作流目录</text>
+<path class="line" d="M360,190 L360,215"/>
+<rect class="box" x="230" y="215" width="260" height="50"/>
+<text x="360" y="236.5" text-anchor="middle">S2 需求与用例约束</text>
+<text x="360" y="253.5" text-anchor="middle">多源甄别与覆盖清单</text>
+<path class="line" d="M360,265 L360,290"/>
+<rect class="box" x="230" y="290" width="260" height="50"/>
+<text x="360" y="311.5" text-anchor="middle">S3 测试实施设计</text>
+<text x="360" y="328.5" text-anchor="middle">环境/工具/方案</text>
+<path class="line" d="M360,340 L360,365"/>
+<rect class="box" x="230" y="365" width="260" height="50"/>
+<text x="360" y="386.5" text-anchor="middle">S4 执行证据采集</text>
+<text x="360" y="403.5" text-anchor="middle">事实持久化</text>
+<path class="line" d="M360,415 L360,440"/>
+<rect class="box" x="230" y="440" width="260" height="50"/>
+<text x="360" y="461.5" text-anchor="middle">S5 判断基线约束</text>
+<text x="360" y="478.5" text-anchor="middle">字典/缺陷库/三分法</text>
+<path class="line" d="M360,490 L360,515"/>
+<rect class="box" x="230" y="515" width="260" height="50"/>
+<text x="360" y="536.5" text-anchor="middle">S6 交付与沉淀</text>
+<text x="360" y="553.5" text-anchor="middle">报告与反思候选</text>
+<rect class="dash" x="540" y="250" width="170" height="120"/>
+<text x="625" y="281" text-anchor="middle">S7 流程门禁</text>
+<text x="625" y="298" text-anchor="middle">贯穿 S3-S6</text>
+<text x="625" y="315" text-anchor="middle">结构校验</text>
+<text x="625" y="332" text-anchor="middle">内容非空校验</text>
+<text x="625" y="349" text-anchor="middle">阻塞/推进</text>
+<path class="line" d="M490,325 L540,325"/>
+
+</svg>

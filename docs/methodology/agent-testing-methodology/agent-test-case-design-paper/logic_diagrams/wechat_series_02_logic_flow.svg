@@ -1,0 +1,66 @@
+<svg width="900" height="900" viewBox="0 0 900 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="flowBgGrid" x1="70" y1="40" x2="830" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B111C"/>
+      <stop offset="1" stop-color="#0A1421"/>
+    </linearGradient>
+    <linearGradient id="flowGoldGrid" x1="120" y1="180" x2="760" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4DEA0"/>
+      <stop offset="1" stop-color="#8F6A30"/>
+    </linearGradient>
+    <linearGradient id="flowCyanGrid" x1="320" y1="200" x2="690" y2="740" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#96F1FF"/>
+      <stop offset="1" stop-color="#2D93B1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="900" rx="28" fill="url(#flowBgGrid)"/>
+
+  <text x="56" y="84" fill="#F7F4EA" font-size="40" font-weight="700" font-family="PingFang SC, Microsoft YaHei, sans-serif">七步约束法</text>
+  <text x="56" y="128" fill="#D4DCE5" font-size="22" font-family="PingFang SC, Microsoft YaHei, sans-serif">先分阶段收敛，再写成品</text>
+
+  <g font-family="PingFang SC, Microsoft YaHei, sans-serif">
+    <rect x="56" y="176" width="360" height="118" rx="20" fill="#101928" stroke="url(#flowGoldGrid)" stroke-width="2"/>
+    <text x="84" y="224" fill="#F7F4EA" font-size="30" font-weight="700">1 甄别</text>
+    <text x="84" y="262" fill="#C6D0DB" font-size="18">先搞清需求来源，</text>
+    <text x="84" y="288" fill="#C6D0DB" font-size="18">冲突先暴露。</text>
+
+    <rect x="484" y="176" width="360" height="118" rx="20" fill="#101928" stroke="#425C75"/>
+    <text x="512" y="224" fill="#F7F4EA" font-size="30" font-weight="700">2 基线</text>
+    <text x="512" y="262" fill="#C6D0DB" font-size="18">定本次采用版本，</text>
+    <text x="512" y="288" fill="#C6D0DB" font-size="18">明确按哪个规则算。</text>
+
+    <rect x="56" y="330" width="360" height="118" rx="20" fill="#101928" stroke="#425C75"/>
+    <text x="84" y="378" fill="#F7F4EA" font-size="30" font-weight="700">3 过滤</text>
+    <text x="84" y="416" fill="#C6D0DB" font-size="18">砍掉已覆盖、外部边界、</text>
+    <text x="84" y="442" fill="#C6D0DB" font-size="18">当前做不了的内容。</text>
+
+    <rect x="484" y="330" width="360" height="118" rx="20" fill="#101928" stroke="#425C75"/>
+    <text x="512" y="378" fill="#F7F4EA" font-size="30" font-weight="700">4 覆盖</text>
+    <text x="512" y="416" fill="#C6D0DB" font-size="18">按维度和组合系统遍历，</text>
+    <text x="512" y="442" fill="#C6D0DB" font-size="18">不靠灵感发散场景。</text>
+
+    <rect x="56" y="484" width="360" height="118" rx="20" fill="#101928" stroke="url(#flowCyanGrid)" stroke-width="2"/>
+    <text x="84" y="532" fill="#F7F4EA" font-size="30" font-weight="700">5 用例与断言</text>
+    <text x="84" y="570" fill="#C6D0DB" font-size="18">先写测试意图，</text>
+    <text x="84" y="596" fill="#C6D0DB" font-size="18">再写必须断言什么。</text>
+
+    <rect x="484" y="484" width="360" height="118" rx="20" fill="#101928" stroke="#425C75"/>
+    <text x="512" y="532" fill="#F7F4EA" font-size="30" font-weight="700">6 审核</text>
+    <text x="512" y="570" fill="#C6D0DB" font-size="18">关键业务判断交给人，</text>
+    <text x="512" y="596" fill="#C6D0DB" font-size="18">Agent 不自己脑补。</text>
+
+    <rect x="180" y="638" width="540" height="118" rx="20" fill="#101928" stroke="url(#flowGoldGrid)" stroke-width="2"/>
+    <text x="214" y="686" fill="#F7F4EA" font-size="30" font-weight="700">7 回查</text>
+    <text x="214" y="724" fill="#C6D0DB" font-size="18">最后查漏补缺：覆盖清单和 case</text>
+    <text x="214" y="750" fill="#C6D0DB" font-size="18">是否真的一一对应。</text>
+
+    <path d="M416 235H484" stroke="#E5CC7E" stroke-width="3"/>
+    <path d="M416 389H484" stroke="#5E7892" stroke-width="3"/>
+    <path d="M416 543H484" stroke="#84DDEA" stroke-width="3"/>
+    <path d="M450 602V638" stroke="#E5CC7E" stroke-width="3"/>
+
+    <rect x="56" y="804" width="788" height="44" rx="12" fill="#0F1725" stroke="#31475D"/>
+    <text x="78" y="832" fill="#D5DEE8" font-size="18">提示词更像提醒，流程更像护栏：提醒你做，护栏不让你跳过。</text>
+  </g>
+</svg>

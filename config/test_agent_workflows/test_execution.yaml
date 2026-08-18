@@ -1,0 +1,102 @@
+id: test_execution
+name: 测试实施 Workflow
+
+targets:
+  execution_guide: execution_guide
+  execution_record: execution_record
+  report: report
+  full: reflection
+
+steps:
+  - id: input_sources
+    name: 输入资料确认
+    output: artifacts/01_input_sources.md
+    required_headings:
+      - 输入资料
+      - 已确认项
+      - 待确认项
+
+  - id: scope
+    name: 测试范围与执行口径
+    output: artifacts/02_scope.md
+    depends_on:
+      - input_sources
+    required_headings:
+      - 本轮测试范围
+      - 不测范围
+      - 部分覆盖项
+      - 待确认项
+
+  - id: environment_precheck
+    name: 可使用环境列表
+    output: artifacts/03_environment_precheck.md
+    depends_on:
+      - scope
+    required_headings:
+      - 可使用环境列表
+      - 环境选择规则
+      - 待确认项
+    required_table_columns:
+      - 测试环境
+      - 备注
+
+  - id: tool_selection
+    name: 测试工具选型
+    output: artifacts/04_tool_selection.md
+    depends_on:
+      - environment_precheck
+    required_table_columns:
+      - 测试工具
+      - 适用范围
+      - 当前工具能力判断
+      - 是否需要改造
+      - 改造方向 / 验收标准
+      - 人类确认状态
+
+  - id: execution_guide
+    name: 测试实施指南
+    output: artifacts/05_execution_guide.md
+    depends_on:
+      - tool_selection
+    required_headings:
+      - 自动化状态
+      - 逐 Case 实施步骤
+      - 证据采集
+      - 通过标准
+      - 失败 / 阻塞处理
+
+  - id: execution_record
+    name: 测试执行记录
+    output: artifacts/06_execution_record.md
+    depends_on:
+      - execution_guide
+    required_headings:
+      - 执行摘要
+      - 测试工具选型结果
+      - 逐 case 执行明细
+      - 覆盖矩阵
+      - 恢复记录
+      - 未覆盖 / 阻塞项
+
+  - id: report
+    name: 最终报告
+    output: artifacts/07_report.md
+    depends_on:
+      - execution_record
+    required_headings:
+      - 已验证通过
+      - 发现的问题或需复测项
+      - 部分覆盖和未执行项
+      - 环境恢复状态
+      - 剩余风险
+
+  - id: reflection
+    name: 测试工程反思
+    output: artifacts/08_reflection.md
+    depends_on:
+      - report
+    required_headings:
+      - 本次暴露的规则缺口
+      - 本次暴露的 skill / 执行流程缺口
+      - 本次暴露的工具缺口
+      - 建议沉淀项

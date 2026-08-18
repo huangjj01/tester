@@ -1,0 +1,84 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="675" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#07111F"/>
+      <stop offset="0.48" stop-color="#10233A"/>
+      <stop offset="1" stop-color="#F7FAFF"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="120" y1="86" x2="1084" y2="580" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.72"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="694" y1="186" x2="980" y2="436" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1677FF"/>
+      <stop offset="1" stop-color="#00B8D9"/>
+    </linearGradient>
+    <filter id="shadow" x="80" y="54" width="1040" height="560" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="28" stdDeviation="34" flood-color="#001833" flood-opacity="0.32"/>
+    </filter>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" stroke="#6EA8FF" stroke-opacity="0.12" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect width="1200" height="675" fill="url(#grid)"/>
+
+  <g opacity="0.55">
+    <rect x="48" y="72" width="316" height="22" rx="4" fill="#83B8FF" fill-opacity="0.16"/>
+    <rect x="48" y="118" width="246" height="16" rx="4" fill="#83B8FF" fill-opacity="0.12"/>
+    <rect x="48" y="152" width="374" height="16" rx="4" fill="#83B8FF" fill-opacity="0.13"/>
+    <rect x="48" y="186" width="210" height="16" rx="4" fill="#83B8FF" fill-opacity="0.10"/>
+    <rect x="48" y="220" width="326" height="16" rx="4" fill="#83B8FF" fill-opacity="0.14"/>
+    <rect x="48" y="254" width="288" height="16" rx="4" fill="#83B8FF" fill-opacity="0.11"/>
+    <rect x="48" y="288" width="382" height="16" rx="4" fill="#83B8FF" fill-opacity="0.12"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="116" y="82" width="968" height="510" rx="30" fill="url(#panel)" stroke="#FFFFFF" stroke-opacity="0.34"/>
+  </g>
+
+  <rect x="160" y="126" width="132" height="36" rx="18" fill="#1677FF" fill-opacity="0.16"/>
+  <text x="182" y="151" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#1677FF">知乎想法</text>
+
+  <text x="160" y="224" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="56" font-weight="800" fill="#FFFFFF">
+    <tspan x="160" y="224">测试人下一站</tspan>
+    <tspan x="160" y="292">是被替代，还是升级？</tspan>
+  </text>
+
+  <text x="160" y="356" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="500" fill="#D7E7FF">
+    <tspan x="160" y="356">10+ 年一线测试实战，35 岁继续在场。</tspan>
+    <tspan x="160" y="396">从传统测试走向 AI 质量工程，我更关心：</tspan>
+    <tspan x="160" y="436">我们到底在失去岗位，还是重写能力边界？</tspan>
+  </text>
+
+  <g transform="translate(160 488)">
+    <rect width="164" height="42" rx="21" fill="#FFFFFF" fill-opacity="0.14"/>
+    <text x="22" y="28" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="700" fill="#F4F8FF">传统测试</text>
+    <path d="M190 21H318" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="3" stroke-linecap="round"/>
+    <path d="M304 9L318 21L304 33" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="342" width="176" height="42" rx="21" fill="#1677FF"/>
+    <text x="364" y="28" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">AI质量工程</text>
+  </g>
+
+  <g transform="translate(704 152)">
+    <path d="M168 42C223 78 252 138 246 203C239 288 171 350 84 355C26 358 -33 334 -66 290" stroke="#E6F0FF" stroke-opacity="0.38" stroke-width="18" stroke-linecap="round"/>
+    <path d="M168 42C222 78 252 138 246 203" stroke="url(#blue)" stroke-width="18" stroke-linecap="round"/>
+    <circle cx="98" cy="196" r="154" fill="#FFFFFF" fill-opacity="0.13" stroke="#FFFFFF" stroke-opacity="0.36"/>
+    <circle cx="98" cy="196" r="104" fill="#071B32" fill-opacity="0.52" stroke="#7EC8FF" stroke-opacity="0.42"/>
+    <path d="M99 106V138" stroke="#BFE4FF" stroke-width="10" stroke-linecap="round"/>
+    <path d="M99 254V286" stroke="#BFE4FF" stroke-width="10" stroke-linecap="round"/>
+    <path d="M8 196H40" stroke="#BFE4FF" stroke-width="10" stroke-linecap="round"/>
+    <path d="M156 196H188" stroke="#BFE4FF" stroke-width="10" stroke-linecap="round"/>
+    <path d="M76 188L108 219L150 148" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-28" y="408" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="800" fill="#142033">35岁，不退场</text>
+    <text x="-28" y="444" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="600" fill="#42526E">把质量经验，迁移到 AI 时代</text>
+  </g>
+
+  <g opacity="0.82">
+    <rect x="882" y="102" width="138" height="34" rx="17" fill="#001A33" fill-opacity="0.26"/>
+    <text x="902" y="125" font-family="JetBrains Mono, Menlo, Consolas, monospace" font-size="15" font-weight="700" fill="#D7E7FF">bug != end</text>
+    <rect x="926" y="540" width="118" height="34" rx="17" fill="#1677FF" fill-opacity="0.14"/>
+    <text x="946" y="563" font-family="JetBrains Mono, Menlo, Consolas, monospace" font-size="15" font-weight="700" fill="#1677FF">AI != exit</text>
+  </g>
+</svg>
